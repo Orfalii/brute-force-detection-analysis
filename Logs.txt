@@ -1,4 +1,6 @@
-Apr 10 10:01:23 server sshd[1234]: Failed password for admin from 192.168.1.50
-Apr 10 10:01:25 server sshd[1234]: Failed password for admin from 192.168.1.50
-Apr 10 10:01:27 server sshd[1234]: Failed password for admin from 192.168.1.50
-Apr 10 10:02:10 server sshd[1234]: Accepted password for admin from 192.168.1.50
+# Relevant Logs
+
+Apr 10 10:01:23 server sshd[1234]: Failed password for admin from 192.168.1.50 port 22
+Apr 10 10:01:25 server sshd[1234]: Failed password for admin from 192.168.1.50 port 22
+Apr 10 10:01:27 server sshd[1234]: Failed password for admin from 192.168.1.50 port 22
+Apr 10 10:02:10 server sshd[1234]: Accepted password for admin from 192.168.1.50 port 22
