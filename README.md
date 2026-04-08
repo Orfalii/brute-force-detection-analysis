@@ -29,8 +29,8 @@ O padrão indica tentativa automatizada de acesso indevido.
 - Análise manual
 - OSINT (VirusTotal)
 
-## 📄 Evidências
+##  Evidências
 
 Os logs analisados estão disponíveis no arquivo abaixo:
 
-📁 logs.txt
+logs.txt
