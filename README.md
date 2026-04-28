@@ -1,9 +1,5 @@
 # SOC Labs – Raphael Orfali
 
-Este repositório reúne estudos práticos em cibersegurança com foco em Blue Team, análise de logs e investigação inicial de incidentes.
-
----
-
 ## Lab 1 – Investigação de Brute Force
 
 ### Cenário
