@@ -9,9 +9,19 @@ Este repositório reúne estudos práticos em cibersegurança com foco em Blue T
 ### Cenário
 Este laboratório simula um caso de brute force contra uma conta com privilégio elevado em um servidor Linux exposto via SSH. O objetivo é analisar os eventos de autenticação, separar ruído de atividade suspeita e documentar a investigação como um caso de triagem inicial em SOC.
 
+---
 
 ### Objetivo
 Identificar se a sequência de autenticações observada indica tentativa de acesso não autorizado e justificar a classificação do incidente com base nos logs disponíveis.
+
+---
+
+### Fluxo de investigação
+1. Revisão do arquivo de autenticação para separar eventos benignos e suspeitos.
+2. Identificação de repetição de falhas para a mesma conta e mesma origem.
+3. Validação de sucesso de autenticação após tentativas consecutivas.
+4. Classificação do incidente com base em IOC, timeline, impacto e técnica MITRE.
+5. Definição de ações imediatas de contenção e fortalecimento de controle.
 
 ---
 
@@ -35,15 +45,6 @@ IOC Principal: `192.168.1.50`
 Conta Afetada: `admin`
 
 Serviço Exposto: `SSH / port 22`
-
----
-
-### Fluxo de investigação
-1. Revisão do arquivo de autenticação para separar eventos benignos e suspeitos.
-2. Identificação de repetição de falhas para a mesma conta e mesma origem.
-3. Validação de sucesso de autenticação após tentativas consecutivas.
-4. Classificação do incidente com base em IOC, timeline, impacto e técnica MITRE.
-5. Definição de ações imediatas de contenção e fortalecimento de controle.
 
 ---
 
