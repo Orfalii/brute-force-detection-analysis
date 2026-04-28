@@ -66,5 +66,5 @@ O relatório detalhado da investigação está disponível abaixo:
 
 [incident-report.md](incident-report.md)
 
-## Notes
+## Anotações
 Os logs deste repositório representam um cenário simulado para fins de estudo e prática em investigação de incidentes.
