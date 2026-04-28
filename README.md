@@ -40,8 +40,7 @@ Foi identificado um ataque de brute force, com múltiplas tentativas de login se
 
 ## Ferramentas utilizadas
 - Logs de autenticação  
-- Análise manual  
-- OSINT (VirusTotal)  
+- Análise manual   
 
 ---
 
