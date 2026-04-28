@@ -38,13 +38,6 @@ Serviço Exposto: `SSH / port 22`
 
 ---
 
-### Fontes de Dados
-- Arquivo de log analisado: [auth.log](auth.log)
-- Evidência visual: `evidence.png`
-- Relatório técnico completo: [incident-report.md](incident-report.md)
-
----
-
 ### Fluxo de investigação
 1. Revisão do arquivo de autenticação para separar eventos benignos e suspeitos.
 2. Identificação de repetição de falhas para a mesma conta e mesma origem.
@@ -75,13 +68,13 @@ Logs analisados: [auth.log](auth.log)
 
 ---
 
-### O que foi praticado
-- leitura e interpretação de logs
-- montagem de timeline
-- triagem inicial de alertas
+### Competências Demonstradas
+- análise de logs de autenticação SSH
 - identificação de IOC
-- classificação de incidente
-- definição de contenção e mitigação
+- reconstrução de timeline de incidente
+- triagem inicial em contexto SOC
+- classificação de brute force com base em evidências
+- definição de ações de contenção
 
 ---
 
