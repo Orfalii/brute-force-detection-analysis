@@ -16,7 +16,7 @@ O padrão observado é compatível com brute force bem-sucedido, com provável c
 ---
 
 ## Escopo da Análise
-- Fonte de dados: [Logs.txt](Logs.txt)
+- Fonte de dados: [auth.log](auth.log)
 - Serviço analisado: SSH
 - Conta afetada: `admin`
 - IOC principal: `192.168.1.50`
